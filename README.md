@@ -7,7 +7,7 @@ From the path of a file (PDF or JSON), parse it in order to get its textual cont
 
 [Check PCU project][pcu].
 
-[pcu]: https://github.com/zevio/pcu_chain
+[pcu]: https://github.com/zevio/pcu_core
 
 ----
 
@@ -21,7 +21,7 @@ Then, add this import line at the beginning of your Python file :
 
 `from pcu_io import pcu_io`
 
-You can now use pcu_json's functions, for example :
+You can now use pcu_io's functions, for example :
 
 `pcu_io.getEquivalentTextfile(path/to/json/or/pdf/file)`
 

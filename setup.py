@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pcu_io",
-    version="1.2.1",
+    version="1.2.2",
     author="Stella Zevio",
     author_email="stella.zevio@lipn.univ-paris13.fr",
     maintainer="Stella Zevio",

@@ -84,7 +84,7 @@ def createTextFile(text,file):
 	textfile = open(textfilename, "a+") # create textfile
 	textfile.write(text) # append content
 	textfile.close() # close textfile
-	return textfile
+	return textfilename
 
 
 def getEquivalentTextfile(file):
@@ -102,10 +102,10 @@ def getEquivalentTextfile(file):
 		textfile=file # if file is already a text file, there is no change needed
 	else:
 		if(file.endswith(".json")): # if file is a JSON file
-			setKeys("name_fr")
 			textfile = JSONParser(file) # parse JSON file and create equivalent text file on the go
 			reader = open(textfile,'r')
 			content = reader.read()
+			reader.close()
 			print(content)
 		else :
 			if(file.endswith(".pdf") or file.endswith(".xml") or file.endswith(".html")): # if file is compatible with Tika parser

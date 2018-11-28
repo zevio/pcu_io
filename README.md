@@ -3,7 +3,7 @@
 IO management for PCU project.
 From the path of a file (PDF or JSON), parse it in order to get its textual content.
 
-![io](https://framapic.org/cE6lh3e6HCbk/tKZsscvzmgxR.png)
+![io](https://framapic.org/ADrYjaJ6VsBN/McbVMFM5GCX6.png)
 
 ----
 

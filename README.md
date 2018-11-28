@@ -3,13 +3,13 @@
 IO management for PCU project.
 From the path of a file (PDF or JSON), parse it in order to get its textual content.
 
-[Check PCU project][pcu].
-
-[pcu]: https://github.com/zevio/pcu_core
+![io](https://framapic.org/cE6lh3e6HCbk/tKZsscvzmgxR.png)
 
 ----
 
-![io](https://framapic.org/cE6lh3e6HCbk/tKZsscvzmgxR.png)
+[Check PCU project][pcu].
+
+[pcu]: https://github.com/zevio/pcu_core
 
 ## Usage in another project
 
